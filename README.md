@@ -1,4 +1,6 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A website showcasing what I've been working on over the years.
+
+Built with Create React App. Below are the default scripts for running this project:
 
 ## Available Scripts
 

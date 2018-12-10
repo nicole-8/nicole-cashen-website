@@ -1,13 +1,15 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 const Menu = () => {
   return (
     <ul className='navbar'>
-      <li><a href='#home'>Home </a></li>
-      <li><a href='#about'>About </a></li>
-      <li><a href="#blogposts">Blog Posts</a></li>
-      <li><a href="#contact">Contact</a></li>
+      <li><AnchorLink href='#home'>Home </AnchorLink></li>
+      <li><AnchorLink href='#about'>About </AnchorLink></li>
+      <li><AnchorLink href="#blogposts">Blog Posts</AnchorLink></li>
+      <li><AnchorLink href="#contact">Contact</AnchorLink></li>
+
     </ul>
   )
 }
