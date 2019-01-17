@@ -1,0 +1,12 @@
+.info {
+    padding-top: 25px;
+    text-align: center;
+    h4 {
+        letter-spacing: 4px;
+        font-weight: bold;
+    }
+    &.grey {
+        background-color: #f5f5f5;
+    }
+
+}

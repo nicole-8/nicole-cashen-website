@@ -1,5 +1,6 @@
 import React from 'react'
-import SocialMediaList from './sub-components/SocialMediaList';
+import SocialMediaList from '../IconList/SocialMediaList';
+import './content.scss'
  
 const Contact = () =>{
   return(

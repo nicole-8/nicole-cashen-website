@@ -11,7 +11,7 @@ const SocialMediaList = () =>{
       <ul className='icon-list'>
         <li><a href="https://github.com/nicole-8"><FontAwesomeIcon icon={['fab', 'github']} /></a></li>
         <li><a href="https://www.linkedin.com/in/nicole-cashen/"><FontAwesomeIcon icon={['fab', 'linkedin']} /></a></li>
-        <li><a href="hhttps://www.meetup.com/members/254156296/"><FontAwesomeIcon icon={['fab', 'meetup']} /></a></li>
+        <li><a href="https://www.meetup.com/members/254156296/"><FontAwesomeIcon icon={['fab', 'meetup']} /></a></li>
       </ul>
       </div>
     )

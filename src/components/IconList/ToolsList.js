@@ -2,10 +2,11 @@ import React from 'react'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { fab } from '@fortawesome/free-brands-svg-icons'
+import './iconList.scss'
 library.add(fab);
 
 
-const Tools = () =>{
+const ToolsList = () =>{
     return(
       <div>
       <h3> Tools I Love: </h3>
@@ -22,4 +23,4 @@ const Tools = () =>{
     )
   }
    
-  export default Tools
+  export default ToolsList

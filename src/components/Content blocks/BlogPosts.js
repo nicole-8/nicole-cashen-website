@@ -1,5 +1,6 @@
 import React from 'react'
-import BlogList from './sub-components/BlogList'
+import BlogList from '../BlogList/BlogList'
+import './content.scss'
  
 const BlogPosts = () =>{
   return(

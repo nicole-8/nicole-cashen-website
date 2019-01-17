@@ -1,5 +1,7 @@
 import React from 'react'
 import blog1 from '../../assets/img/blog1.png'
+import './blogList.scss'
+
 const BlogList = () =>{
   return(
     <div className="list-box">

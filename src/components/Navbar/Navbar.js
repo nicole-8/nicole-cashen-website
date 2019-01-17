@@ -1,8 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
+import './navbar.scss'
 
-const Menu = () => {
+const Navbar = () => {
   return (
     <ul className='navbar'>
       <li><AnchorLink href='#home'>Home </AnchorLink></li>
@@ -14,4 +15,4 @@ const Menu = () => {
   )
 }
 
-export default Menu
+export default Navbar

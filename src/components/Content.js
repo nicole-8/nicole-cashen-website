@@ -1,9 +1,9 @@
 import React from 'react'
 import { Switch, Route } from 'react-router-dom'
-import About from './About'
-import BlogPosts from './BlogPosts'
-import Contact from './Contact'
-import Header from './Header'
+import About from './Content blocks/About'
+import BlogPosts from './Content blocks/BlogPosts'
+import Contact from './Content blocks/Contact'
+import Header from './Header/Header'
  
 const Content = () => {
     return (

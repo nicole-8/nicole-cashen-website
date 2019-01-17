@@ -1,6 +1,7 @@
 import React from 'react'
-import Tools from './Tools'
-import me from '../assets/img/me.jpeg'
+import ToolsList from '../IconList/ToolsList'
+import BioImage from '../BioImage/BioImage'
+import './content.scss'
 
 const About = () =>{
   return(
@@ -9,14 +10,8 @@ const About = () =>{
       <p>I am a developer specialising in Front End technologies. I'm passionate about 
           constantly learning new skills and expanding my knowledge.
       </p>
-      <div className="paddedBox">
-        <div className="diamond">
-          <div className="d1">
-            <img src={me} alt="Nicole Cashen" />
-          </div>
-        </div>
-      </div>
-      <Tools />
+      <BioImage />
+      <ToolsList />
     </div>
   )
 }
